@@ -89,7 +89,7 @@ const ChuckNorris = () => {
         <div className="mb-5 mx-auto">
           <div className="judul mb-2 text-center">
             <h1 className="text-3xl">Chuck Norris Joke</h1>
-            <img src={ChuckIMG} className="w-44 h-32 m-auto " />
+            <img src={ChuckIMG} className="w-44 h-32 m-auto " alt="" />
           </div>
           <div className="flex flex-row items-center gap-1">
             <input
