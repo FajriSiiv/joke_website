@@ -99,7 +99,7 @@ const ChuckNorris = () => {
               onChange={e => setSearcVal(e.target.value)}
             />
             <button
-              className=" transition duration-300 ease-out pt-1 pb-1 pl-4 pr-4 border-2 w-fit-content break-words hover:text-white hover:bg-green-500 hover:border-2 hover:border-green-200"
+              className=" transition duration-300 ease-out pt-1 pb-1 pl-4 pr-4 border-2 w-fitC break-words hover:text-white hover:bg-green-500 hover:border-2 hover:border-green-200"
               onClick={e => {
                 handleClick();
                 setBtnClick(false);
@@ -132,7 +132,7 @@ const ChuckNorris = () => {
             <option value="travel">Travel</option>
           </select>
           <button
-            className="transition duration-300 ease-out pt-1 pb-1 pl-4 pr-4 border-2 w-fit-content break-words hover:text-white hover:bg-green-500 hover:border-2 hover:border-green-200"
+            className="transition duration-300 ease-out pt-1 pb-1 pl-4 pr-4 border-2 w-fitC break-words hover:text-white hover:bg-green-500 hover:border-2 hover:border-green-200"
             value="animal"
             onClick={e => {
               handleClick();
