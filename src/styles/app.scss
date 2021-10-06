@@ -1,0 +1,9 @@
+.chuck-div {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  @media screen and (max-width: 500px) {
+    grid-template-columns: 1fr;
+    width: fit-content !important ;
+  }
+}
