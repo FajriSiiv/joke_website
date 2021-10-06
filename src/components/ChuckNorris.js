@@ -75,7 +75,7 @@ const ChuckNorris = () => {
   }
 
   function ReadyGet() {
-    return btnClick == false ? <GetSearch /> : <OptValue />;
+    return btnClick === false ? <GetSearch /> : <OptValue />;
   }
 
   return (
